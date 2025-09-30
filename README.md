@@ -40,7 +40,7 @@ Copy `.env.example` to `.env`:
 cp .env.example .env
 ```
 
-Set database credentials (compatible with Sail):
+In .env file, set database credentials (compatible with Sail):
 
 ```env
 DB_CONNECTION=mysql
@@ -51,7 +51,7 @@ DB_USERNAME=<username>
 DB_PASSWORD=<password>
 ```
 
-Add your Fixer.io API key:
+Also, add your Fixer.io API key:
 
 ```env
 FIXER_API_KEY=your_fixer_api_key_here
@@ -62,6 +62,7 @@ FIXER_API_KEY=your_fixer_api_key_here
 ```bash
 composer install
 ```
+
 ### 4. Start Docker Containers
 
 ```bash
